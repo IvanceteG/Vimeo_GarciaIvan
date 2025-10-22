@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +10,7 @@ body, html {
   height: 100%;
 }
 
-/* Encabezado */
-.header {
+.encabezado {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,19 +26,19 @@ body, html {
   font-size: 24px;
 }
 
-.nav {
+.navegacion {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-.login {
+.iniciar {
   color: black;
   text-decoration: none;
   font-weight: 500;
 }
 
-.join {
+.unirse {
   background: #e6f4ff;
   color: black;
   padding: 8px 15px;
@@ -59,8 +57,7 @@ body, html {
   cursor: pointer;
 }
 
-/* Hero con video */
-.hero {
+.principal {
   position: relative;
   height: 85vh;
   margin: 20px;
@@ -68,7 +65,7 @@ body, html {
   overflow: hidden;
 }
 
-.bg-video {
+.video-fondo {
   position: absolute;
   top: 0;
   left: 0;
@@ -78,8 +75,7 @@ body, html {
   z-index: 0;
 }
 
-/* Texto encima del video */
-.overlay {
+.superposicion {
   position: relative;
   z-index: 1;
   background: rgba(0, 0, 0, 0.5);
@@ -93,49 +89,51 @@ body, html {
   color: white;
 }
 
-.tagline {
+.eslogan {
   font-family: monospace;
   font-size: 13px;
   margin-bottom: 10px;
   letter-spacing: 1px;
 }
 
-.title {
+.titulo {
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 20px;
   line-height: 1.2;
 }
 
-.description {
+.descripcion {
   font-size: 16px;
   margin-bottom: 30px;
   line-height: 1.6;
 }
 
-.cta-buttons {
+.botones-cta {
   display: flex;
   gap: 15px;
   margin-bottom: 25px;
 }
 
-.btn {
+.boton {
   padding: 12px 20px;
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
 }
 
-.primary {
+.boton-principal {
   background: #00b2ff;
   color: black;
 }
 
-.secondary {
+.boton-secundario {
   color: white;
+  background: transparent;
+  border: 2px solid white;
 }
 
-.info-box {
+.caja-informacion {
   display: flex;
   align-items: center;
   background: #e0e0e0;
@@ -146,7 +144,7 @@ body, html {
   gap: 10px;
 }
 
-.info-box .icon {
+.caja-informacion .icono {
   background: #00b2ff;
   color: white;
   padding: 10px;
@@ -154,28 +152,27 @@ body, html {
   font-weight: bold;
 }
 
-/* Sección empresarial */
-.enterprise-section {
+.seccion-empresa {
   background: linear-gradient(to bottom, #f9fbfc 0%, #ffffff 100%);
   padding: 80px 20px;
   text-align: center;
 }
 
-.enterprise-content h2 {
+.contenido-empresa h2 {
   font-size: 40px;
   color: black;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
-.enterprise-content p {
+.contenido-empresa p {
   font-size: 18px;
   color: #4a4a4a;
   line-height: 1.6;
   margin-bottom: 40px;
 }
 
-.enterprise-button {
+.boton-empresa {
   display: inline-block;
   background: #00c8ff;
   color: black;
@@ -187,10 +184,24 @@ body, html {
   transition: background 0.3s;
 }
 
-.enterprise-button:hover {
+.boton-empresa:hover {
   background: #00b2e6;
 }
 
-.enterprise-button span {
+.boton-empresa span {
   margin-left: 10px;
+}
+
+.fondo-negro{
+  background-color: #000;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.parrafos-video{
+  display: flex;
+  text-align: left;
+  margin-top: 3px;
+  padding-left: 5px;
 }
