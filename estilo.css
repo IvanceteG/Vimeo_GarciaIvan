@@ -244,3 +244,18 @@ body, html {
     color: white;
     border-radius: 10px;
 }
+
+.sector-li{
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.sector-li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+.sector-li p{
+  color: rgb(143, 143, 143)
+}
